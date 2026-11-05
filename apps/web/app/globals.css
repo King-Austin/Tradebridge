@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Warm Linen / Parchment Base (#F9F6F0) */
+    --background: 40 28% 96%;
+    --foreground: 30 10% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 30 10% 10%;
+
+    --popover: 40 28% 96%;
+    --popover-foreground: 30 10% 10%;
+
+    /* Deep Obsidian & Maritime */
+    --primary: 30 10% 10%;
+    --primary-foreground: 40 28% 96%;
+
+    /* Honey Amber (#F0A732) */
+    --secondary: 37 87% 57%;
+    --secondary-foreground: 30 10% 10%;
+
+    --muted: 40 20% 92%;
+    --muted-foreground: 30 8% 45%;
+
+    --accent: 37 87% 57%;
+    --accent-foreground: 30 10% 10%;
+
+    --destructive: 14 74% 47%;
+    --destructive-foreground: 40 28% 96%;
+
+    /* Warm Parchment Borders (#E8E2D5) */
+    --border: 40 18% 88%;
+    --input: 40 18% 88%;
+    --ring: 37 87% 57%;
+
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: 30 10% 8%;
+    --foreground: 40 20% 95%;
+
+    --card: 30 8% 11%;
+    --card-foreground: 40 20% 95%;
+
+    --popover: 30 8% 11%;
+    --popover-foreground: 40 20% 95%;
+
+    --primary: 40 20% 95%;
+    --primary-foreground: 30 10% 8%;
+
+    --secondary: 37 87% 57%;
+    --secondary-foreground: 30 10% 8%;
+
+    --muted: 30 8% 16%;
+    --muted-foreground: 30 6% 60%;
+
+    --accent: 30 8% 18%;
+    --accent-foreground: 40 20% 95%;
+
+    --destructive: 14 74% 47%;
+    --destructive-foreground: 40 20% 95%;
+
+    --border: 30 8% 18%;
+    --input: 30 8% 18%;
+    --ring: 37 87% 57%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "version": "2026.1-mvp",
+  "lastUpdated": "2026-03-01",
+  "disclaimer": "Tariff and regulatory data are provided for pre-shipment estimation purposes only based on NCS ECOWAS CET provisions. Final classification and assessments are determined by the Nigeria Customs Service at port clearance.",
+  "categories": {
+    "automotive_spare_parts": {
+      "chapter": "87",
+      "category": "automotive_spare_parts",
+      "sampleCodes": [
+        {
+          "code": "8708.29.00",
+          "description": "Other parts and accessories of bodies (including cabs) for motor vehicles",
+          "dutyRatePercent": 10.0,
+          "categoryLevyPercent": 0.0,
+          "regulations": [
+            "SONCAP (Standards Organisation of Nigeria Conformity Assessment Programme) mandatory",
+            "Manufacturer invoice and test report required"
+          ]
+        },
+        {
+          "code": "8708.30.00",
+          "description": "Brakes and servo-brakes; parts thereof for motor vehicles",
+          "dutyRatePercent": 20.0,
+          "categoryLevyPercent": 0.0,
+          "regulations": [
+            "SONCAP certificate of conformity mandatory prior to shipment",
+            "OEM product batch markings inspection"
+          ]
+        },
+        {
+          "code": "8409.91.00",
+          "description": "Parts suitable for use solely or principally with spark-ignition internal combustion piston engines",
+          "dutyRatePercent": 5.0,
+          "categoryLevyPercent": 0.0,
+          "regulations": [
+            "SONCAP certification required"
+          ]
+        }
+      ],
+      "statutoryFees": {
+        "surchargePercentOfDuty": 7.0,
+        "cissPercentOfFob": 1.0,
+        "etlsPercentOfCif": 0.5,
+        "vatPercentOfTaxableBase": 7.5
+      },
+      "sources": [
+        {
+          "name": "Nigeria Customs Service ECOWAS Common External Tariff (CET)",
+          "authority": "Nigeria Customs Service",
+          "url": "https://customs.gov.ng",
+          "note": "Harmonized System 2022 / ECOWAS CET Schedule"
+        },
+        {
+          "name": "SON Regulated Product List",
+          "authority": "Standards Organisation of Nigeria",
+          "url": "https://son.gov.ng",
+          "note": "Mandatory conformity assessment for automotive mechanical parts"
+        }
+      ]
+    },
+    "electronics_electrical": {
+      "chapter": "85",
+      "category": "electronics_electrical",
+      "sampleCodes": [
+        {
+          "code": "8504.40.00",
+          "description": "Static converters, solar inverters, and battery chargers",
+          "dutyRatePercent": 5.0,
+          "categoryLevyPercent": 0.0,
+          "regulations": [
+            "SONCAP e-Certificate mandatory",
+            "NESREA clearance for e-waste compliance on batteries/converters"
+          ]
+        },
+        {
+          "code": "8528.52.00",
+          "description": "Monitors capable of directly connecting to and designed for use with an automatic data processing machine",
+          "dutyRatePercent": 10.0,
+          "categoryLevyPercent": 0.0,
+          "regulations": [
+            "SONCAP compliance certificate",
+            "Energy rating declaration"
+          ]
+        },
+        {
+          "code": "8517.62.00",
+          "description": "Machines for the reception, conversion and transmission or regeneration of voice, images or other data (networking devices)",
+          "dutyRatePercent": 10.0,
+          "categoryLevyPercent": 0.0,
+          "regulations": [
+            "Nigerian Communications Commission (NCC) Type Approval required for active wireless transmitters",
+            "SONCAP certificate"
+          ]
+        }
+      ],
+      "statutoryFees": {
+        "surchargePercentOfDuty": 7.0,
+        "cissPercentOfFob": 1.0,
+        "etlsPercentOfCif": 0.5,
+        "vatPercentOfTaxableBase": 7.5
+      },
+      "sources": [
+        {
+          "name": "NCS Tariff Book Chapter 85",
+          "authority": "Nigeria Customs Service",
+          "url": "https://customs.gov.ng",
+          "note": "Electronics & Electrical machinery duty schedule"
+        },
+        {
+          "name": "NCC Type Approval Guidelines",
+          "authority": "Nigerian Communications Commission",
+          "url": "https://ncc.gov.ng",
+          "note": "Telecommunications & RF equipment clearance guidelines"
+        }
+      ]
+    },
+    "textiles_clothing": {
+      "chapter": "62",
+      "category": "textiles_clothing",
+      "sampleCodes": [
+        {
+          "code": "6203.42.00",
+          "description": "Men's or boys' trousers, bib and brace overalls, breeches and shorts of cotton",
+          "dutyRatePercent": 35.0,
+          "categoryLevyPercent": 5.0,
+          "regulations": [
+            "SON Product Certificate (PC) & SONCAP mandatory",
+            "Subject to Import Prohibition list exemptions check",
+            "Specific port destination requirements"
+          ]
+        },
+        {
+          "code": "5208.11.00",
+          "description": "Woven fabrics of cotton, containing 85% or more by weight of cotton, unbleached, plain weave",
+          "dutyRatePercent": 20.0,
+          "categoryLevyPercent": 0.0,
+          "regulations": [
+            "National Cotton and Textile Policy compliance",
+            "SONCAP certificate"
+          ]
+        }
+      ],
+      "statutoryFees": {
+        "surchargePercentOfDuty": 7.0,
+        "cissPercentOfFob": 1.0,
+        "etlsPercentOfCif": 0.5,
+        "vatPercentOfTaxableBase": 7.5
+      },
+      "sources": [
+        {
+          "name": "NCS CET Chapters 50-63 (Textiles & Apparel)",
+          "authority": "Nigeria Customs Service",
+          "url": "https://customs.gov.ng",
+          "note": "Protective tariff rates applied to manufactured apparel"
+        }
+      ]
+    }
+  }
+}
+
